@@ -7,15 +7,24 @@ cv:
     - network: LinkedIn
       username: ted-zhao
     - network: GitHub
-      username: tade0726
+      username: tedzhao226
   sections:
     summary:
-      - bullet: Machine Learning Engineer with 6+ years of experience delivering end-to-end AI solutions across fintech, travel, and retail sectors.
+      - bullet: Machine Learning Engineer with 7+ years of experience delivering end-to-end AI solutions across fintech, travel, and retail sectors.
       - bullet: Proficient in AI-assisted development tools (Cursor IDE, Claude Code, ChatGPT Codex) for accelerated development and code quality.
       - bullet: Expertise in RAG systems, computer vision, and reinforcement learning, improving business metrics.
       - bullet: Strong MLOps background with Databricks, MLflow, and ZenML, focusing on production-grade model deployment and monitoring.
       - bullet: Track record of innovative solutions from credit scoring to LLM-powered chatbots, consistently driving business value through AI.
     experience:
+      - company: Heidi Health
+        position: Senior AI Engineer
+        location: Melbourne, VIC
+        start_date: 2025-10
+        end_date: 2026-02
+        highlights:
+          - Built FastAPI + Redis cache queue for Google Vertex AI Provisional Throughput calls, reducing peak-hour request blocking and recovering idle nighttime PT capacity for company-wide unblocking.
+          - Designed online LLM evaluation pipeline for clinical note generation, measuring hallucination rate and medical fact extraction accuracy; benchmarked cost-efficient model variants against SOTA baseline.
+          - Integrated OpenTelemetry with Langfuse for end-to-end LLM observability, capturing traces and edit-distance metrics to monitor note generation quality in production.
       - company: Lyrebird Health
         position: AI Engineer
         location: Melbourne, VIC
