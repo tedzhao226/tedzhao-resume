@@ -11,7 +11,7 @@ cv:
   sections:
     summary:
       - bullet: Machine Learning Engineer with 7+ years of experience delivering end-to-end AI solutions across fintech, travel, and retail sectors.
-      - bullet: Proficient in AI-assisted development tools (Cursor IDE, Claude Code, ChatGPT Codex) for accelerated development and code quality.
+      - bullet: "Advanced Claude Code practitioner (300+ hours, ~$4K AUD API spend): applies plan-first architecture, multi-agent swarm orchestration, and BDD/TDD workflows to deliver complex systems at 4x velocity."
       - bullet: Expertise in RAG systems, computer vision, and reinforcement learning, improving business metrics.
       - bullet: Strong MLOps background with Databricks, MLflow, and ZenML, focusing on production-grade model deployment and monitoring.
       - bullet: Track record of innovative solutions from credit scoring to LLM-powered chatbots, consistently driving business value through AI.
@@ -23,7 +23,7 @@ cv:
         end_date: 2026-02
         highlights:
           - Built FastAPI + Redis cache queue for Google Vertex AI Provisional Throughput calls, reducing peak-hour request blocking and recovering idle nighttime PT capacity for company-wide unblocking.
-          - Designed online LLM evaluation pipeline for clinical note generation, measuring hallucination rate and medical fact extraction accuracy; benchmarked cost-efficient model variants against SOTA baseline.
+          - Designed online LLM evaluation pipeline for clinical note generation on Databricks, applying data engineering practices (Delta Lake storage, batch ETL, versioned eval datasets) to measure hallucination rate and medical fact extraction accuracy; benchmarked cost-efficient model variants against SOTA baseline.
           - Integrated OpenTelemetry with Langfuse for end-to-end LLM observability, capturing traces and edit-distance metrics to monitor note generation quality in production.
       - company: Lyrebird Health
         position: AI Engineer
@@ -111,7 +111,7 @@ cv:
       - label: ML/AI
         details: Reinforcement Learning, Deep Learning, Clustering, LightGBM, XGBoost, SVM, Word2Vec, A/B Testing
       - label: AI Development Tools
-        details: Cursor IDE, Claude Code, ChatGPT Codex
+        details: Claude Code (300+ hrs, swarm orchestration, plan-first, BDD/TDD), Cursor IDE, ChatGPT Codex
       - label: MLOps/Cloud
         details: Azure ML, AWS, SageMaker, MLflow
       - label: Data Engineering
@@ -122,6 +122,8 @@ cv:
         details: Django, Flask, Asyncio, Scrapy
       - label: ETL/Data Tools
         details: SQL, SQLAlchemy, Spark, Pandas, Tableau
+      - label: Infrastructure as Code
+        details: Terraform, Terragrunt, Docker
       - label: Version Control & Containers
         details: Git, Docker
     education:
