@@ -7,7 +7,7 @@ cv:
     - network: LinkedIn
       username: ted-zhao
     - network: GitHub
-      username: tade0726
+      username: tedzhao226
   sections:
     summary:
       - bullet: Data Engineer with proven expertise in optimising data architectures, reducing schema size by 50% and query runtime by 50%.
@@ -63,7 +63,7 @@ cv:
       - name: ATO Chatbot
         date: 2023
         highlights:
-          - "**Live Demo**: [ato-chat.streamlit.app](https://ato-chat.streamlit.app/) | **Source**: [github.com/tade0726/ato_chatbot](https://github.com/tade0726/ato_chatbot)"
+          - "**Live Demo**: [ato-chat.streamlit.app](https://ato-chat.streamlit.app/) | **Source**: [github.com/tedzhao226/ato_chatbot](https://github.com/tedzhao226/ato_chatbot)"
           - Built production-grade RAG system with LlamaIndex and Qdrant vector store, enabling context-aware tax information retrieval.
           - Implemented MLOps pipeline with ZenML for data ingestion, fine-tuning, and automated model evaluation.
           - Developed Streamlit-based UI with real-time query rephrasing and source citations for enhanced user trust.
