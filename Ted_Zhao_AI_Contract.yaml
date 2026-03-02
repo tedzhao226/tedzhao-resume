@@ -10,11 +10,11 @@ cv:
       username: tedzhao226
   sections:
     summary:
-      - bullet: Machine Learning Engineer with 7+ years of experience delivering end-to-end AI solutions across fintech, travel, and retail sectors.
-      - bullet: "Advanced Claude Code practitioner (300+ hours, ~$4K AUD API spend): applies plan-first architecture, multi-agent swarm orchestration, and BDD/TDD workflows to deliver complex systems at 4x velocity."
-      - bullet: Expertise in RAG systems, computer vision, and reinforcement learning, improving business metrics.
-      - bullet: Strong MLOps background with Databricks, MLflow, and ZenML, focusing on production-grade model deployment and monitoring.
-      - bullet: Track record of innovative solutions from credit scoring to LLM-powered chatbots, consistently driving business value through AI.
+      - bullet: AI Engineer with 7+ years of experience specialising in LLMs, Generative AI, and Agentic AI systems — delivering production-grade solutions across healthcare, government, fintech, and travel.
+      - bullet: "Hands-on Vertex AI practitioner: built FastAPI + Redis queue for Google Vertex AI Provisional Throughput, designed LLM evaluation pipelines on Databricks, and integrated OpenTelemetry/Langfuse for GenAI observability."
+      - bullet: Experienced in multi-agent orchestration and agentic workflow design (RAG, tool-use, human-in-the-loop); leverages AI orchestration frameworks — including Claude Code (300+ hours, swarm multi-agent workflows) — to ship complex systems at accelerated velocity.
+      - bullet: Dual cloud expertise across GCP (Vertex AI, BigQuery) and Azure (OpenAI, ML Studio), with strong MLOps foundations in Databricks, MLflow, and end-to-end ML pipeline delivery.
+      - bullet: Track record of statistical validation and A/B testing frameworks, foundation model evaluation, and scalable AI deployment in regulated industries.
     experience:
       - company: Heidi Health
         position: Senior AI Engineer
@@ -22,35 +22,35 @@ cv:
         start_date: 2025-10
         end_date: 2026-02
         highlights:
-          - Built FastAPI + Redis cache queue for Google Vertex AI Provisional Throughput calls, reducing peak-hour request blocking and recovering idle nighttime PT capacity for company-wide unblocking.
-          - Designed online LLM evaluation pipeline for clinical note generation on Databricks, applying data engineering practices (Delta Lake storage, batch ETL, versioned eval datasets) to measure hallucination rate and medical fact extraction accuracy; benchmarked cost-efficient model variants against SOTA baseline.
-          - Integrated OpenTelemetry with Langfuse for end-to-end LLM observability, capturing traces and edit-distance metrics to monitor note generation quality in production.
+          - Built FastAPI + Redis cache queue for Google Vertex AI Provisional Throughput calls, reducing peak-hour request blocking and recovering idle nighttime PT capacity — primary Vertex AI integration showcasing hands-on GCP GenAI deployment.
+          - Designed online LLM evaluation pipeline for clinical note generation on Databricks, applying data engineering practices (Delta Lake, batch ETL, versioned eval datasets) to benchmark cost-efficient foundation model variants against SOTA baseline on hallucination rate and medical fact extraction accuracy.
+          - Integrated OpenTelemetry with Langfuse for end-to-end LLM observability, capturing traces and edit-distance metrics to monitor Agentic AI note generation quality in production.
       - company: Lyrebird Health
         position: AI Engineer
         location: Melbourne, VIC
         start_date: 2025-07
         end_date: 2025-08
         highlights:
-          - Built LLM evaluation in Langfuse and LangSmith to measure and improve healthcare documentation quality, with A/B testing and user feedback for continuous improvement.
-          - Built an LLM-as-a-judge system to assess the authenticity, accuracy, and completeness of clinical documentation.
-          - Optimized prompt design to increase prompt cache hit rate.
-          - Provided Redactation solution for sensitive information to comply with HIPAA/GDPR.
+          - Built LLM evaluation pipelines in Langfuse and LangSmith to measure and improve GenAI healthcare documentation quality, with A/B testing and statistical validation for continuous model improvement.
+          - Built an LLM-as-a-judge system to assess authenticity, accuracy, and completeness of clinical documentation, applying prompt engineering for precise evaluation criteria.
+          - Optimised prompt design to increase prompt cache hit rate, reducing inference cost for high-throughput GenAI workloads.
+          - Provided redaction solution for sensitive information to comply with HIPAA/GDPR.
       - company: Department for Education, South Australia
         position: AI Engineer
         location: Adelaide, SA
         start_date: 2025-06
         end_date: 2025-07
         highlights:
-          - Developed LLM-powered chatbot using agentic and workflow paradigms with PDF data sources, implementing metadata-filtered RAG for efficient document search and analytical query processing.
-          - Built cross-referencing systems for PDF documents and implemented sensitive information redaction workflows to support LLM-powered human-in-the-loop application approval processes.
-          - Enhanced PDF parsing accuracy through integration of OCR tools and vision-language models (VLMs), improving data extraction completeness for government efficiency initiatives.
+          - Developed LLM-powered chatbot using agentic and workflow paradigms — multi-agent document processing with metadata-filtered RAG architecture for efficient PDF data source search and analytical query processing.
+          - Built cross-referencing agents for PDF documents and implemented sensitive information redaction workflows to support Agentic AI human-in-the-loop application approval processes.
+          - Enhanced PDF parsing accuracy via OCR tools and vision-language models (VLMs), improving data extraction completeness for government efficiency initiatives.
       - company: Rainmakr.ai
         position: Data/AI Engineer
         location: Adelaide, SA (Remote)
         start_date: 2023-05
         end_date: 2024-07
         highlights:
-          - Built GPT-4 theme extraction pipeline for 10K+ monthly company profiles, achieving 92% accuracy and reducing review time by 75% through optimized prompt engineering.
+          - Built GPT-4 LLM pipeline for theme extraction across 10K+ monthly company profiles, achieving 92% accuracy and reducing review time by 75% through systematic prompt engineering at scale.
           - Simplified 30+ table data models with DBT, reducing schema size by 50% and redundant data by 15%.
           - Optimised queries through join refinement and re-indexing, cutting runtime by 50%.
           - Integrated DBT with Dagster Cloud for mixed orchestration of notebook and DBT jobs.
@@ -60,10 +60,10 @@ cv:
         start_date: 2019-11
         end_date: 2021-07
         highlights:
-          - Performed end-to-end ML pipeline in Databricks/MLflow, engineering user behaviour features and iteratively improving CTR by 5-10%.
-          - Deployed ensemble of LightGBM and Deep Learning models with A/B testing framework for continuous model refinement.
+          - Performed end-to-end ML pipelines in Databricks/MLflow, engineering user behaviour features and iteratively improving CTR by 5-10%.
+          - Deployed ensemble of LightGBM and Deep Learning models with A/B testing framework and statistical validation for continuous model refinement.
           - Developed ResNet-based classifier for 20 hotel categories with hierarchical labelling system, achieving 99% Top-5 accuracy.
-          - Enhanced image selection using MobileNet with multi-dimensional aesthetic scoring (composition, lighting, detail), lifting CTR by 3%.
+          - Enhanced image selection using MobileNet with multi-dimensional aesthetic scoring, lifting CTR by 3%.
           - Built T+1 batch processing pipeline using AWS Lambda/PySpark for feature extraction, storing in Parquet format.
       - company: DJI
         position: Data Scientist
@@ -71,11 +71,8 @@ cv:
         start_date: 2018-04
         end_date: 2018-08
         highlights:
-          - Built Scrapy-based web crawler to gather city demographics and competitor store distribution data for market analysis.
           - Developed quantitative ranking algorithm incorporating economic indicators and business factors for city prioritisation.
-          - Analysed post-launch user demographics (location, income, age) to create detailed customer segments.
-          - Monitored sales patterns and provided data-driven insights for campaign strategy optimisation.
-          - Developed Django/SQLAlchemy-based API for Jupyter extension, enabling efficient SQL querying and data model management.
+          - Applied clustering and statistical analysis on user demographics (location, income, age) to create detailed customer segments.
       - company: Smart Decision Technology Ltd
         position: Data Scientist
         location: Shenzhen, China
@@ -83,10 +80,8 @@ cv:
         end_date: 2018-03
         highlights:
           - Implemented credit scorecard system with feature selection, WOE calculation, and logistic model conversion in Python.
-          - Built SimPy-based logistics simulation with Flask/SQLAlchemy backend, securing 2-year contract with S.F. Express.
           - Applied K-Means clustering for HKJC member segmentation, delivering lifecycle-based targeting strategies.
           - Developed Chinese text sentiment analysis using Word2Vec and K-means for thematic clustering.
-          - Built supervised learning model with custom Chinese tokenization for app review classification.
 
     projects:
       - name: ATO Chatbot
@@ -108,14 +103,14 @@ cv:
           - Developed profit analysis system incorporating trading fees and compound returns visualisation.
 
     skills:
-      - label: ML/AI
-        details: LLMs, Generative AI, RAG, Agentic AI, Reinforcement Learning, Deep Learning, Clustering, LightGBM, XGBoost, SVM, Word2Vec, A/B Testing
-      - label: AI Development Tools
-        details: Claude Code (300+ hrs, swarm orchestration, plan-first, BDD/TDD), Cursor IDE, ChatGPT Codex, LangChain, LlamaIndex, Langfuse
+      - label: LLM/GenAI
+        details: "LLMs, Generative AI, RAG, Agentic AI, Foundation Model Fine-tuning, Multi-Agent Orchestration, Prompt Engineering"
       - label: LLM Frameworks
-        details: OpenAI API, Vertex AI API, Anthropic API, LangChain, LlamaIndex, Langfuse, OpenTelemetry
-      - label: MLOps/Cloud
-        details: GCP (Vertex AI), Azure ML, AWS, SageMaker, MLflow
+        details: "OpenAI API, Vertex AI API, Anthropic API, LangChain, LlamaIndex, Langfuse, OpenTelemetry"
+      - label: ML/AI
+        details: Reinforcement Learning, Deep Learning, Clustering, LightGBM, XGBoost, SVM, Word2Vec, A/B Testing
+      - label: Cloud Platforms
+        details: "GCP (Vertex AI, BigQuery), Azure (OpenAI, ML Studio), AWS (SageMaker), Databricks, MLflow"
       - label: Data Engineering
         details: DBT, Databricks, Snowflake, Dagster
       - label: Programming
@@ -155,8 +150,8 @@ design:
   theme: engineeringresumes
 rendercv_settings:
   render_command:
-    output_folder_name: rendercv_output_ml
-    pdf_path: ted_zhao_ml_cv.pdf
+    output_folder_name: rendercv_output_ai_contract
+    pdf_path: ted_zhao_ai_contract_cv.pdf
     dont_generate_html: false
     dont_generate_markdown: false
     dont_generate_png: false
