@@ -25,6 +25,7 @@ cv:
           - Built FastAPI + Redis cache queue for Google Vertex AI Provisional Throughput calls, reducing peak-hour request blocking and recovering idle nighttime PT capacity for company-wide unblocking.
           - Designed online LLM evaluation pipeline for clinical note generation on Databricks, applying data engineering practices (Delta Lake storage, batch ETL, versioned eval datasets) to measure hallucination rate and medical fact extraction accuracy; benchmarked cost-efficient model variants against SOTA baseline.
           - Integrated OpenTelemetry with Langfuse for end-to-end LLM observability, capturing traces and edit-distance metrics to monitor note generation quality in production.
+          - Deployed background LLM inference service to Kubernetes using Terraform for infrastructure provisioning and Helm charts for service orchestration.
       - company: Lyrebird Health
         position: AI Engineer
         location: Melbourne, VIC
@@ -124,10 +125,8 @@ cv:
         details: Django, Flask, Asyncio, Scrapy
       - label: ETL/Data Tools
         details: SQL, SQLAlchemy, Spark, Pandas, Tableau
-      - label: Infrastructure as Code
-        details: Terraform, Terragrunt, Docker
-      - label: Version Control & Containers
-        details: Git, Docker
+      - label: Infrastructure & DevOps
+        details: Terraform, Terragrunt, Helm, Kubernetes, Docker, Git
     education:
       - institution: University of Adelaide
         area: Machine Learning
