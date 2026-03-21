@@ -83,7 +83,7 @@ Shenzhen, China  <span class="date">**Sept 2010 - July 2014**</span>
 
 ## **Side Projects**
 
-### **ATO Chatbot** - [ato-chat.streamlit.app](https://ato-chat.streamlit.app/) ⋄ [GitHub](https://github.com/tade0726/ato_chatbot)
+### **ATO Chatbot** - [ato-chat.streamlit.app](https://ato-chat.streamlit.app/) ⋄ [GitHub](https://github.com/tedzhao226/ato_chatbot)
 
 - Engineered an AI-driven chatbot for the Australian Taxation Office (ATO) to facilitate information retrieval, utilizing Retrieval-Augmented Generation (RAG) with LlamaIndex and Qdrant.
 - Deployed the solution via Streamlit, ensuring a seamless and user-friendly interface.
