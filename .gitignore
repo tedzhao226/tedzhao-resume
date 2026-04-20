@@ -9,8 +9,6 @@
 # And not these folders...
 !md/
 !md/**
-!variants/
-!variants/**
 !cover_letters/
 !cover_letters/**
 
