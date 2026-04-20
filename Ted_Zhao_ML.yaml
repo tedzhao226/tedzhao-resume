@@ -10,11 +10,12 @@ cv:
       username: tedzhao226
   sections:
     summary:
-      - bullet: Machine Learning Engineer with 7+ years of experience delivering end-to-end AI solutions across fintech, travel, and retail sectors.
-      - bullet: "Advanced Claude Code practitioner (300+ hours, ~$4K AUD API spend): applies plan-first architecture, multi-agent swarm orchestration, and BDD/TDD workflows to deliver complex systems at 4x velocity."
-      - bullet: Expertise in RAG systems, computer vision, and reinforcement learning, improving business metrics.
-      - bullet: Strong MLOps background with Databricks, MLflow, and ZenML, focusing on production-grade model deployment and monitoring.
-      - bullet: Track record of innovative solutions from credit scoring to LLM-powered chatbots, consistently driving business value through AI.
+      - bullet: "**Machine Learning Engineer** with 7+ years delivering end-to-end ML pipelines and production systems across fintech, travel, healthcare, and retail."
+      - bullet: "Advanced **Claude Code** practitioner (300+ hours, ~$4K AUD API spend): applies plan-first architecture, multi-agent swarm orchestration, and BDD/TDD workflows to deliver complex systems at 4x velocity."
+      - bullet: "Strong **MLOps** background with hands-on **Databricks** and **MLflow** across Skyscanner, Rainmakr, and Heidi Health — end-to-end pipelines, model registry, production deployment, and **Delta Lake** / Spark / batch ETL."
+      - bullet: "At Skyscanner, deployed **LightGBM** and deep learning ensembles via **MLflow Model Registry** with **A/B testing**, lifting CTR by 5–10%; delivered **low-latency** production inference by compressing the vision model to a **MobileNet** backbone, preserving scoring quality while meeting real-time ranking SLAs."
+      - bullet: "Production engineering across **AWS** (Lambda, S3, SageMaker), **Docker/Kubernetes** deployments via Terraform/Helm, and **OpenTelemetry/Langfuse** for live model observability."
+      - bullet: "Breadth across **RAG**, computer vision, **reinforcement learning**, and quantitative modelling, consistently driving business value through ML."
     experience:
       - company: Heidi Health
         position: Senior AI Engineer
@@ -23,7 +24,7 @@ cv:
         end_date: 2026-02
         highlights:
           - Built FastAPI + Redis cache queue for Google Vertex AI Provisional Throughput calls, reducing peak-hour request blocking and recovering idle nighttime PT capacity for company-wide unblocking.
-          - Designed online LLM evaluation pipeline for clinical note generation on Databricks, applying data engineering practices (Delta Lake storage, batch ETL, versioned eval datasets) to measure hallucination rate and medical fact extraction accuracy; benchmarked cost-efficient model variants against SOTA baseline.
+          - Designed online LLM evaluation pipeline for clinical note generation on Databricks (Delta Lake, batch ETL, versioned eval datasets) to measure hallucination rate and medical fact extraction accuracy, benchmarking cost-efficient model variants against SOTA.
           - Integrated OpenTelemetry with Langfuse for end-to-end LLM observability, capturing traces and edit-distance metrics to monitor note generation quality in production.
           - Deployed background LLM inference service to Kubernetes using Terraform for infrastructure provisioning and Helm charts for service orchestration.
       - company: Lyrebird Health
@@ -34,8 +35,8 @@ cv:
         highlights:
           - Built LLM evaluation in Langfuse and LangSmith to measure and improve healthcare documentation quality, with A/B testing and user feedback for continuous improvement.
           - Built an LLM-as-a-judge system to assess the authenticity, accuracy, and completeness of clinical documentation.
-          - Optimized prompt design to increase prompt cache hit rate.
-          - Provided Redactation solution for sensitive information to comply with HIPAA/GDPR.
+          - Tuned prompt design to increase prompt cache hit rate.
+          - Delivered redaction solution for sensitive information to comply with HIPAA/GDPR.
       - company: Department for Education, South Australia
         position: AI Engineer
         location: Adelaide, SA
@@ -44,28 +45,28 @@ cv:
         highlights:
           - Developed LLM-powered chatbot using agentic and workflow paradigms with PDF data sources, implementing metadata-filtered RAG for efficient document search and analytical query processing.
           - Built cross-referencing systems for PDF documents and implemented sensitive information redaction workflows to support LLM-powered human-in-the-loop application approval processes.
-          - Enhanced PDF parsing accuracy through integration of OCR tools and vision-language models (VLMs), improving data extraction completeness for government efficiency initiatives.
+          - Improved PDF parsing accuracy by integrating OCR tools and vision-language models (VLMs).
       - company: Rainmakr.ai
         position: Data/AI Engineer
         location: Adelaide, SA (Remote)
         start_date: 2023-05
         end_date: 2024-07
         highlights:
-          - Built GPT-4 theme extraction pipeline for 10K+ monthly company profiles, achieving 92% accuracy and reducing review time by 75% through optimized prompt engineering.
+          - Orchestrated mixed Databricks notebook and DBT workflows via Dagster Cloud, running Spark-based transformations and feature engineering on the Databricks Lakehouse.
+          - Built GPT-4 theme extraction pipeline for 10K+ monthly company profiles, achieving 92% accuracy and reducing review time by 75% through systematic prompt engineering.
           - Simplified 30+ table data models with DBT, reducing schema size by 50% and redundant data by 15%.
-          - Optimised queries through join refinement and re-indexing, cutting runtime by 50%.
-          - Integrated DBT with Dagster Cloud for mixed orchestration of notebook and DBT jobs.
+          - Tuned queries through join refinement and re-indexing, cutting runtime by 50%.
       - company: Skyscanner
         position: ML Engineer/Data Scientist
         location: Shenzhen, China
         start_date: 2019-11
         end_date: 2021-07
         highlights:
-          - Performed end-to-end ML pipeline in Databricks/MLflow, engineering user behaviour features and iteratively improving CTR by 5-10%.
-          - Deployed ensemble of LightGBM and Deep Learning models with A/B testing framework for continuous model refinement.
-          - Developed ResNet-based classifier for 20 hotel categories with hierarchical labelling system, achieving 99% Top-5 accuracy.
-          - Enhanced image selection using MobileNet with multi-dimensional aesthetic scoring (composition, lighting, detail), lifting CTR by 3%.
-          - Built T+1 batch processing pipeline using AWS Lambda/PySpark for feature extraction, storing in Parquet format.
+          - Built end-to-end ML pipelines on Databricks with MLflow (experiment tracking, model registry, production deployment) for user-behaviour feature engineering, lifting CTR by 5–10%.
+          - Deployed LightGBM and deep learning ensembles via MLflow Model Registry with A/B testing and statistical validation gating promotion to production.
+          - Delivered low-latency image-scoring service by compressing the production vision model to a MobileNet backbone (vs heavier ResNet/Inception baselines) — preserved multi-dimensional aesthetic scoring quality (composition, lighting, detail), hit real-time ranking SLAs, and lifted CTR by 3%.
+          - Built T+1 batch feature-extraction pipeline on AWS Lambda/PySpark, storing versioned features in Parquet for model training and serving.
+          - Developed ResNet classifier for 20 hotel categories with hierarchical labelling, achieving 99% Top-5 accuracy.
       - company: DJI
         position: Data Scientist
         location: Shenzhen, China
@@ -90,6 +91,14 @@ cv:
           - Built supervised learning model with custom Chinese tokenization for app review classification.
 
     projects:
+      - name: headroom — Vertex AI Provisioned Throughput broker
+        date: 2026-04
+        highlights:
+          - "**Source**: [github.com/tedzhao226/headroom](https://github.com/tedzhao226/headroom)"
+          - Built async Python service (FastAPI + SAQ[postgres] + SQLAlchemy 2 + asyncpg) that queues LLM requests against Vertex AI Provisioned Throughput and dispatches them only when per-endpoint token-per-second capacity (and, for night jobs, a UTC window) allows — recovering idle overnight PT while protecting daytime latency.
+          - Designed Postgres-only two-queue architecture (no Redis); capacity and time gates run in SAQ `before_process` hooks backed by `FOR UPDATE SKIP LOCKED` dispatch.
+          - Implemented `VertexMonitor` polling GCP Cloud Monitoring every 60s with conservative fallback after consecutive failures, plus a `monitor_samples` Postgres table for time-series observability without Prometheus.
+          - Testcontainers-backed integration suite + dockerized smoke test; spec-driven development via GitHub Spec Kit (constitution, spec, plan, tasks).
       - name: ATO Chatbot
         date: 2023
         highlights:
@@ -152,10 +161,3 @@ cv:
 
 design:
   theme: engineeringresumes
-rendercv_settings:
-  render_command:
-    output_folder_name: rendercv_output_ml
-    pdf_path: ted_zhao_ml_cv.pdf
-    dont_generate_html: false
-    dont_generate_markdown: false
-    dont_generate_png: false

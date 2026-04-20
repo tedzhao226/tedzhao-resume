@@ -9,6 +9,10 @@
 # And not these folders...
 !md/
 !md/**
+!variants/
+!variants/**
+!cover_letters/
+!cover_letters/**
 
 # pdf
 !*.pdf
@@ -23,4 +27,6 @@
 
 # Ignore build outputs and system files
 .DS_Store
-rendercv_output_*/
+render_output/
+rendercv_output*/
+__pycache__/
